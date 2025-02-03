@@ -12,7 +12,6 @@ public class Main {
         ProdutoDAO produtoDAO = new ProdutoDAO();
         Produto produto = new Produto();
         String resp;
-        resp = "sim";
 
         System.out.println("Seja bem vindo ao estoque da Pichau");
         do {
