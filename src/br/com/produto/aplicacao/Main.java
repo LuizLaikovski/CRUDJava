@@ -11,7 +11,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         ProdutoDAO produtoDAO = new ProdutoDAO();
         Produto produto = new Produto();
-        String resp = "S";
+        String resp = "sim";
 
         System.out.println("Seja bem vindo ao estoque da Pichau");
         do {
